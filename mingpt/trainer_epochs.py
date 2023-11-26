@@ -73,7 +73,7 @@ class Trainer:
             self.loss.backward()
             torch.nn.utils.clip_grad_norm_(model.parameters(), config.grad_norm_clip)
             self.optimizer.step()
-            pbar.set_description(f"iter {it}, training_loss = {self.loss:.2f}")
+            pbar.set_description(f"iter {it}, training_loss = {self.loss}")
             
         val_loader = DataLoader(
             self.val_dataset,
