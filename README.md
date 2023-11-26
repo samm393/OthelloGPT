@@ -5,7 +5,7 @@ My reconstruction of [this](https://github.com/likenneth/othello_world)
 1. [Generating Data](#generating-data)
 2. [Training GPT model](#training-gpt-model)
 3. [Training Probes](#training-probes)
-4. [Intervention Case Studies](#intervention-case-studies)
+4. [Intervention Case Studies](#intervention-case-study)
 
 ## Generating Data
 
