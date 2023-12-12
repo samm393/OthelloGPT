@@ -1,6 +1,6 @@
 # OthelloGPT
 
-My reconstruction of [this](https://github.com/likenneth/othello_world) project. An 8-layer GPT model is trained to predict valid moves in the board game othello - i.e. it only sees the sequence of moves, never the board. Probes are then trained to investigate whether there is an internal model of the board state. The causality of this internal model is then investigated by performing interventions on the intermediate activations of the model, and seeing if predictions for valid moves are updated accordingly.
+My reconstruction of the results from [this](https://arxiv.org/abs/2210.13382) paper. An 8-layer GPT model is trained to predict valid moves in the board game othello - i.e. it only sees the sequence of moves, never the board. Probes are then trained to investigate whether there is an internal model of the board state. The causality of this internal model is then investigated by performing interventions on the intermediate activations of the model, and seeing if predictions for valid moves are updated accordingly.
 
 1. [Generating Data](#generating-data)
 2. [Training GPT model](#training-gpt-model)
